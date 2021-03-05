@@ -1,0 +1,76 @@
+@media (max-width: 767px) {
+    .navbar-toggler {
+       margin: auto;
+    }
+    
+    .navbar-nav {
+       text-align: center;
+    }
+}
+
+@media (max-width: 991px) {
+    .logo__block {
+        justify-content: center;
+    }
+    
+    .car__content {
+        margin-top: 20px;
+    }
+
+    .header__top > .row {
+        width: calc(100% + 30px);
+    }
+    
+    .contact__block {
+        margin-top: 20px;
+        padding:15px;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .product__content_inner{
+        margin-top: 20px;
+    }
+
+    .advantage__content_inner {
+        margin-top: 20px;
+    }
+    
+}
+
+@media (max-width: 448px) {
+    .contact__block {
+        flex-wrap: wrap;
+    }
+    
+    .contact__content_block {
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+    .contact__button {
+        text-align: center;
+        margin: 0 auto;
+        display: table;
+    }
+    
+    .contact__block div {
+        width: 100%;
+    }
+}
+
+@media (max-width: 415px) {
+    .button__block {
+        flex-wrap: wrap;
+    }
+    
+    .header__button_text {
+        margin: 20px 0 0 0;
+        width: 100%;
+    }
+    
+    .header__button {
+        
+    }
+}
